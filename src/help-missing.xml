@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                          "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2007-01-07 lexa: made file docbook compliant
+-->
+<appendix id="help-missing">
+  <title>Eeek! There is Missing Help</title>
+  <para>
+    Sorry, but a help item is missing for the function you're looking for.
+    You may be able to find it in the online version of the help at the
+    <ulink url="http://docs.gimp.org/en"><acronym>GIMP</acronym> docs</ulink>
+    website.
+  </para>
+  <para>
+    Feel free to join us and fill the gap by writing documentation for
+    <acronym>GIMP</acronym>. For more information, subscribe to our
+    <ulink url="https://mail.gnome.org/mailman/listinfo/gimp-docs-list">Mailing
+      list</ulink>. Generally, it's a good idea to check the
+    <ulink url="http://www.gimp.org/docs"><acronym>GIMP</acronym> project
+    page</ulink>.
+  </para>
+  <para>
+    Found a <emphasis role="bold">content error</emphasis> or just
+    something which doesn't look right?
+    <!-- This link is also used to render a small link in the left hand
+         side of the footer, to help users filing bug reports.
+         Bug: 711318
+      -->
+    <ulink id="reportbug" url="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual">
+      Report an error in Bugzilla
+    </ulink> and let us know.
+  </para>
+</appendix>

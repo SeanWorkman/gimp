@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2012-06-02 j.h: update to 2.8
+  2007-10-17 j.h: only added "active image" instead of"image" for v2.4
+-->
+<sect2 id="gimp-file-close">
+  <title>Close</title>
+
+  <anchor id="gimp-file-close-confirm"/>
+  <indexterm>
+    <primary>Image</primary>
+    <secondary>Close image</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Close</primary>
+  </indexterm>
+
+  <para>
+    The <guimenuitem>Close</guimenuitem> command closes the active image.It is
+    disabled if no image is open.
+  </para>
+  <para>
+    Closing an image is not undoable: once it is
+    closed, everything is gone, including the undo history.  If the image
+    is not <quote>clean</quote> — that is, if you have changed it since the
+    last time you saved it — you are asked to confirm that you really want
+    to close it.  Note that an image is marked as clean when it is saved to
+    a file, even if the file format chosen does not preserve all the
+    information in the image, so it is a good idea to think for a moment
+    about what you are doing before closing an image.  If there is the
+    slightest possibility that you will regret it, save the file (automatically
+    in the XCF file format since <acronym>GIMP</acronym>-2.8).
+  </para>
+
+  <sect3>
+    <title>Activating the Command</title>
+    <itemizedlist>
+      <listitem>
+        <para>
+          You can access this command from the image menu through
+          <menuchoice>
+            <guimenu>File</guimenu>
+            <guimenuitem>Close</guimenuitem>
+          </menuchoice>,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          or by using the keyboard shortcut
+          <keycombo><keycap>Ctrl</keycap><keycap>W</keycap></keycombo>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          For most systems on which the <acronym>GIMP</acronym> runs,
+          you can also execute it by clicking on a
+          <quote>Close</quote> button somewhere on the image window titlebar.
+          The location and appearance of this button are determined by the
+          windowing system and the window manager. If no image is open,
+          clicking on this button closes GIMP.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+</sect2>
