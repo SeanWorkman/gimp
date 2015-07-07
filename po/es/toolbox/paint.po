@@ -3,10 +3,12 @@
 # This file is distributed under the same license as the gimp-help-2 package.
 # 
 # Jorge González <jorgegonz@svn.gnome.org>, 2011.
-# Ignacio AntI <ant dot ign at gmail dot com>, 2011., 2011.
+# Ignacio AntI <ant dot ign at gmail dot com>, 2011.
+, 2011.
 # Nicolás Satragno <nsatragno@gnome.org>, 2012.
 # Angelo Córdova <acordinz@gmail.com>, 2012, 2013.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011., 2012, 2013.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011.
+, 2012, 2013.
 #
 msgid ""
 msgstr ""
@@ -498,7 +500,7 @@ msgstr ""
 #: src/toolbox/paint/pencil.xml:103(para)
 msgid ""
 "This key places the pencil tool into straight line mode. Holding "
-"<keycap>Shift</keycap> while clicking <mousebutton>Button 1</mousebutton> "
+"<keycap>Shift</keycap> while clicking <mousebutton>Left&nbsp;Button</mousebutton> "
 "will generate a straight line. Consecutive clicks will continue drawing "
 "straight lines that originate from the end of the last line."
 msgstr ""
@@ -590,7 +592,7 @@ msgstr ""
 #: src/toolbox/paint/paintbrush.xml:82(para)
 msgid ""
 "This key places the paintbrush into straight line mode. Holding "
-"<keycap>Shift</keycap> while clicking <mousebutton>Button 1</mousebutton> "
+"<keycap>Shift</keycap> while clicking <mousebutton>Left&nbsp;Button</mousebutton> "
 "will generate a straight line. Consecutive clicks will continue drawing "
 "straight lines that originate from the end of the last line."
 msgstr ""
@@ -5363,7 +5365,7 @@ msgstr ""
 #: src/toolbox/paint/airbrush.xml:88(para)
 msgid ""
 "<keycap>Shift</keycap> places the airbrush into straight line mode. Holding "
-"<keycap>Shift</keycap> while clicking <mousebutton>Button 1</mousebutton> "
+"<keycap>Shift</keycap> while clicking <mousebutton>Left&nbsp;Button</mousebutton>"
 "will generate a straight line. Consecutive clicks will continue drawing "
 "straight lines that originate from the end of the last line."
 msgstr ""
